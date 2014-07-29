@@ -21,8 +21,8 @@ p friends.sort{|x,y| y <=> x }
 
 nest = []
 
-length = friends.each { |length| length.length}
-  nest.push length
+friends.each { |frand| nest << "#{frand} #{frand.length}" }
+
 
 
 
